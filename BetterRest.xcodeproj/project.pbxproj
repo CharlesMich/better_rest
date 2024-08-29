@@ -11,6 +11,7 @@
 		34BD8A8A2C7D8921002C410E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8A892C7D8921002C410E /* ContentView.swift */; };
 		34BD8A8C2C7D8922002C410E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BD8A8B2C7D8922002C410E /* Assets.xcassets */; };
 		34BD8A8F2C7D8922002C410E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BD8A8E2C7D8922002C410E /* Preview Assets.xcassets */; };
+		34BD8AB12C802CDF002C410E /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8AB02C802CDF002C410E /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		34BD8A892C7D8921002C410E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34BD8A8B2C7D8922002C410E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34BD8A8E2C7D8922002C410E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34BD8AB02C802CDF002C410E /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../../../Downloads/SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		34BD8A862C7D8921002C410E /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				34BD8AB02C802CDF002C410E /* SleepCalculator.mlmodel */,
 				34BD8A872C7D8921002C410E /* BetterRestApp.swift */,
 				34BD8A892C7D8921002C410E /* ContentView.swift */,
 				34BD8A8B2C7D8922002C410E /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				34BD8A8A2C7D8921002C410E /* ContentView.swift in Sources */,
 				34BD8A882C7D8921002C410E /* BetterRestApp.swift in Sources */,
+				34BD8AB12C802CDF002C410E /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
